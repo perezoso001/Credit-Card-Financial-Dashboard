@@ -8,13 +8,13 @@ The dashboards uncover insights on customer demographics, revenue performance, s
 
 ## 📁 Project Structure
 
-Credit_Card_Financial_Dashboard/
-│
-├── credit_card_financial_database_query.sql # SQL file for database & table creation + CSV import
-├── README.md # Project documentation
-├── credit_card.csv # Credit card transaction dataset
-├── credit card financial dashboard.pbix
-└── customer.csv # Customer demographic dataset
+Credit_Card_Financial_Dashboard:
+
+- credit_card_financial_database_query.sql # SQL file for database & table creation + CSV import
+- README.md # Project documentation
+- credit_card.csv # Credit card transaction dataset
+- credit card financial dashboard.pbix
+- customer.csv # Customer demographic dataset
 
 ---
 
