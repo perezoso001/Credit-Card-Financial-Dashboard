@@ -1,65 +1,114 @@
-# Credit Card Financial Dashboard
+# 📊 Credit Card Financial Dashboard – Power BI Project
 
-A comprehensive Power BI project analyzing credit card customer
-demographics and transaction behaviors. This project includes two
-interactive dashboards and a MySQL database built from raw CSV files.
+This project focuses on analyzing **credit card customer behavior** and **credit card transaction performance** using two detailed Power BI dashboards. The analysis is powered by a structured **MySQL database** created using two CSV datasets.
 
-------------------------------------------------------------------------
+The dashboards uncover insights on customer demographics, revenue performance, spending patterns, activation & delinquency behavior, and geographic contributions.
 
-## 📊 Dashboards Included
+---
 
-### **1. Credit Card Customer Report**
+## 📁 Project Structure
 
-This dashboard focuses on the customer side of credit card usage,
-highlighting: - Customer demographics (age, gender, education, marital
-status) - Income and occupation trends - Loan, house, and car ownership
-patterns - Customer satisfaction insights
+Credit_Card_Financial_Dashboard/
+│
+├── credit_card_financial_database_query.sql # SQL file for database & table creation + CSV import
+├── README.md # Project documentation
+├── credit_card.csv # Credit card transaction dataset
+├── credit card financial dashboard.pbix
+└── customer.csv # Customer demographic dataset
 
-### **2. Credit Card Transaction Report**
+---
 
-This dashboard focuses on transactional behaviour: - Total transaction
-amount and count - Spending patterns by category - Credit utilization
-ratios - Revolving balance & credit limit patterns
+## 📌 Project Overview
 
-------------------------------------------------------------------------
+This project analyzes:
 
-## 🗄️ Database Setup
+- Customer demographics  
+- Revenue and interest earnings  
+- Spending patterns  
+- Credit card usage behavior  
+- State-wise contribution  
+- Activation & delinquency performance  
 
-Two tables were created in MySQL using the provided CSV files:
+Dashboards were designed using **Power BI**, with data cleaned and stored in a **MySQL** database.
 
--   **cc_detail** -- Credit card transaction data\
--   **cust_detail** -- Customer demographic and financial profile data
+---
 
-The SQL script used to create and load the data is stored separately in:
+## 📊 Dashboards Created
 
-📄 **credit_card_financial_database_query.sql**
+### **1️⃣ Credit Card Customer Report**
+Focus areas:
 
-------------------------------------------------------------------------
+- Customer age groups  
+- Gender distribution  
+- Education level  
+- Marital status  
+- Income distribution  
+- Customer satisfaction  
+- House/Car ownership  
+- State-wise customer distribution  
 
-## 📁 Project Files
+---
 
--   `credit_card.csv` --- Credit card transaction dataset\
--   `customer.csv` --- Customer demographic dataset\
--   `credit_card_financial_database_query.sql` --- SQL script for table
-    creation & data loading\
--   Power BI dashboard files\
--   This README.md
+### **2️⃣ Credit Card Transaction Report**
+Focus areas:
 
-------------------------------------------------------------------------
+- Total revenue & interest earned  
+- Transaction amount & count  
+- Card category contribution  
+- Expense types  
+- Activation rate  
+- Delinquent account rate  
+- State-wise revenue & usage distribution  
+
+---
+
+## 📈 Key Insights (Week 1 – Week 52, 2023)
+
+- **Overall Revenue:** 55M  
+- **Total Interest Earned:** 7.84M  
+- **Total Transaction Amount:** 45M  
+
+### **Gender Contribution**
+- **Male:** 30M  
+- **Female:** 25M  
+
+### **Top Performing Card Categories**
+- **Blue & Silver → 93% of all transactions**
+
+### **Top States**
+- **TX, NY & CA → 68% contribution**
+
+### **Performance Metrics**
+- **Activation Rate:** 57.5%  
+- **Delinquent Rate:** 6.06%  
+
+---
+
+## 🗄️ Database Used
+
+A MySQL database (`ccdb`) was created with two tables:
+
+- **cc_detail** – Credit card transaction information  
+- **cust_detail** – Customer demographic information  
+
+All SQL queries used for database creation and data import are available in:  
+`credit_card_financial_database_query.sql`
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Tool       | Purpose                         |
+|------------|---------------------------------|
+| Power BI   | Dashboarding & Visualization    |
+| MySQL      | Database storage & preprocessing |
+| Excel/CSV  | Raw dataset input               |
+| SQL        | Data cleaning & preparation     |
+
+---
 
 ## 📬 Contact
 
-**Praveen Raju**\
-📧 Email: **55praveen65@gmail.com**\
-🔗 GitHub: **https://github.com/perezoso001/spotify_data_analysis**
-
-------------------------------------------------------------------------
-
-## ✔️ Summary
-
-This project delivers a full end‑to‑end BI workflow: - Raw data → MySQL
-database\
-- Data cleaning & modeling → Power BI\
-- Interactive dashboards for credit card performance insights
-
-Feel free to explore, use, or enhance the dashboards!
+**Praveen Raju**  
+📧 **Email:** 55praveen65@gmail.com  
+🔗 **GitHub:** https://github.com/perezoso001  
